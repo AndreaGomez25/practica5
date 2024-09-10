@@ -1,0 +1,55 @@
+/* Fondo y tipografía general */
+body {
+    background-color: #e9dfdf;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Centrar el contenido y ajustar el tamaño */
+table {
+    width: 80%; /* Cambiado el ancho al 80% */
+    margin: 0 auto; /* Centrar la tabla horizontalmente */
+}
+
+/* Ajuste para las celdas */
+td {
+    vertical-align: text-top;
+    text-align: center; /* Centrar contenido dentro de las celdas */
+}
+
+/* Estilos para las listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilos para los divs */
+div {
+    color: #c9c7c7;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 2px solid #0c0c0c;
+    border-radius: 15px 0 15px 0;
+    background-color: #389b7f;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+/* Ajustes para las imágenes */
+img {
+    display: block;
+    margin: 0 auto; /* Centrar las imágenes */
+    max-width: 100%;
+}
+
+/* Centrando texto en encabezados y párrafos */
+h2, p {
+    text-align: center;
+}
